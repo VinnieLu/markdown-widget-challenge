@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    normalize.css removes cross-browser differences in defaults, e.g.,
+    differences in how form elements appear between Firefox and IE
+    See: http://necolas.github.com/normalize.css/
+  -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <!--
+    application.css is where you put your styles
+  -->
+  <link rel="stylesheet" href="./css/application.css">
+
+
+
+  <title>Widget Markdown Editor</title>
+</head>
+<body>
+
+  <div id="header">
+    <h2>Welcome to the Widget Markdown Editor!</h2>
+  </div>
+
+  <div id="instructions">
+    <h3>Instructions:</h3>
+      <div id="emphasis">
+          <p>*Italics*    **Bold**<br>
+              _Italics_    __Bold__</p>
+      </div>
+  </div>
+
+
+  <div id="textInput">
+    <form>
+      <textarea id="textarea" cols="100" rows="15"></textarea>
+      <!-- <input id="submit" type=submit> -->
+    </form>
+  </div>
+
+  <div id="preview">
+
+
+  </div>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="./js/algorithms.js"></script>
+  <script src="./js/mousetrap.js"></script>
+  <script src="./js/underscore.js"></script>
+  <script src="./js/application.js"></script>
+</body>
+</html>

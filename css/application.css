@@ -1,0 +1,30 @@
+#preview {
+	font-size: 100px;
+	width: 70%;
+	margin: auto;
+	word-break: break-all;
+	/*position: absolute;*/
+	/*border: 1px solid black;*/
+}
+
+#textInput {
+	text-align: center;
+	margin: auto;
+	/*position: absolute;*/
+}
+
+#header {
+	text-align: center;
+}
+
+#instructions {
+	/*position: relative;*/
+	margin: 0 0 0 3%;
+	/*width: 15%;*/
+}
+
+#emphasis {
+	border: 1px solid black;
+	float: left;
+	padding: 0 10px 0 10px;
+}
